@@ -1,0 +1,48 @@
+h1{
+    display: flex;
+    flex-direction: column;
+    color: turquoise;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    outline: none;
+    color: white;
+}
+
+.imcContainer{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(127, 127, 196);
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.imcContainer button{
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(39, 40, 53);
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.imcContainer button:hover{
+    transform: scale(1.1);
+}
+
+#res{
+    color: white;
+}
+
+.imcContainer input{
+    border-radius: 4px;
+    border: none;
+    
+}
